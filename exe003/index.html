@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com listas</h1>
+    <h2>Listas ordenadas</h2>
+    <ol>
+        <li>Acordar</li>
+        <li>Ler a Bíblia</li>
+        <li>Tomar banho</li>
+        <li>Escovar os dentes</li>
+        <li>Tomar café da manhã</li>
+        <li>Fazer exercícios</li>
+        <li>Tomar banho</li>
+        <li>Estudar</li>
+    </ol>
+    <p><mark>OBS</mark>.: O HTML5 fez com que não seja mais necessário o uso do /li </p>
+    <hr>
+    <p>Para alterar a forma que a lista aparece pode-se usar o comando type seguido dos tipos: numérico(1), alfabético(A para maiuscula e a para minúscula), romano(I para maiúscula e i para minúscula). <br> EXEMPLOS:</p>
+    <ol type="1" start="6">
+        <li>Tomar banho</li>
+        <li>Escovar os dentes</li>
+        <li>Tomar café da manhã</li>
+        <li>Fazer exercícios</li>
+        <li>Tomar banho</li>
+        <li>Estudar</li>
+        <p>Esta é uma lista ordenada, com o comando type para indicar que ela é numérica e começando no 6, com o comando start.</p>
+    </ol>
+    <hr>
+    <ol type="A">
+        <li>Tomar banho</li>
+        <li>Escovar os dentes</li>
+        <li>Tomar café da manhã</li>
+        <li>Fazer exercícios</li>
+        <li>Tomar banho</li>
+        <li>Estudar</li>
+        <p>Esta é uma lista ordenada, com o comando type para indicar que ela é alfabética maiúscula.</p>
+    </ol>
+    <hr>
+    <ol type="a">
+        <li>Tomar banho</li>
+        <li>Escovar os dentes</li>
+        <li>Tomar café da manhã</li>
+        <li>Fazer exercícios</li>
+        <li>Tomar banho</li>
+        <li>Estudar</li>
+        <p>Esta é uma lista ordenada, com o comando type para indicar que ela é alfabética minúscula.</p>
+    </ol>
+    <hr>
+    <ol type="I">
+        <li>Tomar banho</li>
+        <li>Escovar os dentes</li>
+        <li>Tomar café da manhã</li>
+        <li>Fazer exercícios</li>
+        <li>Tomar banho</li>
+        <li>Estudar</li>
+        <p>Esta é uma lista ordenada, com o comando type para indicar que ela é em números romanos maiúsculos.</p>
+    </ol>
+    <hr>
+    <ol type="i">
+        <li>Tomar banho</li>
+        <li>Escovar os dentes</li>
+        <li>Tomar café da manhã</li>
+        <li>Fazer exercícios</li>
+        <li>Tomar banho</li>
+        <li>Estudar</li>
+        <p>Esta é uma lista ordenada, com o comando type para indicar que ela é em números romanos minúsculos.</p>
+    </ol>
+    <hr>
+    <h2>Listas não ordenadas</h2>
+    <ul>
+        <li>Biscoito</li>
+        <li>Leite</li>
+        <li>Café</li>
+    </ul>
+    <hr>
+    <p>para alterar a forma que a lista aparece pode-se usar o comando type seguidos dos tipos disco (disc), círculo (circle) e quadrado (square). <br> EXEMPLOS:</p>
+    <ul type="disc">
+        <li>Biscoito</li>
+        <li>Leite</li>
+        <li>Café</li>
+        <p>Esta é uma lista não ordenada, com o comando type para indicar que ela é em disco.</p>
+    </ul>
+    <hr>
+    <ul type="circle">
+        <li>Biscoito</li>
+        <li>Leite</li>
+        <li>Café</li>
+        <p>Esta é uma lista não ordenada, com o comando type para indicar que ela é em círculo.</p>
+    </ul>
+    <hr>
+    <ul type="square">
+        <li>Biscoito</li>
+        <li>Leite</li>
+        <li>Café</li>
+        <p>Esta é uma lista não ordenada, com o comando type para indicar que ela é em quadrado.</p>
+    </ul>
+    <hr>
+    <h2>Juntando listas</h2>
+    <h3>ol com ol</h3>
+    <ol type="I">
+        <li>Jogos favoritos</li>
+        <ol type="1">
+            <li>Minecraft</li>
+            <li>Lego Marvel</li>
+            <li>Lego Batman</li>
+            <li>Batman Arkham Origins</li>
+            <li>Call of Duty</li>
+        </ol>
+        <li>Materias escolares</li>
+        <ol type="1">
+            <li>Matemática</li>
+            <li>Física</li>
+            <li>Geografia</li>
+            <li>Química</li>
+            <li>História</li>
+        </ol>
+    </ol>
+    <hr>
+    <h3>ul com ul</h3>
+    <ul>
+        <li>Doces
+            <ul type="square">
+                <li>Chocolate</li>
+                <li>Paçoca</li>
+                <li>Bala</li>
+                <li>Doce de leite</li>
+            </ul>
+        </li>
+        <li>Bebidas
+            <ul type="square">
+                <li>Refrigerante</li>
+                <li>Suco</li>
+                <li>Água</li>
+            </ul>
+        </li>
+    </ul>
+    <hr>
+    <h3>ol com ul</h3>
+    <ol>
+        <li>Fazer compras
+            <ul type="disc">
+                <li>Biscoito</li>
+                <li>Leite</li>
+                <li>Café</li>
+            </ul>
+        </li>
+        <li>Estudar
+            <ul type="disc">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </li>
+    </ol>
+    <hr>
+    <h3>ul com ol</h3>
+    <ul>
+        <li>Fazer compras
+            <ol type="A">
+                <li>Biscoito</li>
+                <li>Leite</li>
+                <li>Café</li>
+                <li>Doce de leite</li>
+                <li>Paçoca</li>
+            </ol>
+        </li>
+        <li>Estudar
+            <ol type="A">
+                <li>Matemática</li>
+                <ul type="circle">
+                    <li>Algoritmos</li>
+                    <li>Cálculo</li>
+                    <li>Geometria</li>
+                </ul>
+                <li>Programação</li>
+                <ul type="circle"> 
+                    <li>WEB</li>
+                    <ol type="i">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>PHP</li>
+                        <li>SQL</li>
+                    </ol>
+                    <li>Lógica de Programação</li>
+                    <li>Banco de Dados</li>
+                    <ol type="i">
+                        <li>MySQL</li>
+                        <li>PostgreSQL</li>
+                        <li>MongoDB</li>
+                    </ol>
+                    <li>Python</li>
+                    <li>Ruby</li>
+                    <li>Java</li>
+                    <li>C</li>
+                    <li>C#</li>
+                    <li>C++</li>
+                    <li>Go</li>
+                </ul>             
+            </ol>
+        </li>
+    </ul>
+    <hr>
+    <h2>Lista de Definição</h2>
+    <dl>
+        <dt style="color: orange;">HTML</dt>
+        <dd>HyperText Markup Language (linguagem de marcação de hipertexto)</dd>
+        <dt style="color: royalblue;">CSS</dt>
+        <dd>Cascading Style Sheets (folhas de estilo em cascata)</dd>
+        <dt style="color: rgb(150, 150, 0);">JavaScript</dt>
+        <dd>Linguagem de programação para desenvolvimento web</dd>
+        <dt style="color: blue;">PHP</dt>
+        <dd>Hypertext Preprocessor (pré-processador de hipertexto)</dd>
+        <dt style="color: purple;">SQL</dt>
+        <dd>Structured Query Language (linguagem de consulta estruturada)</dd>
+    </dl>
+    <footer>
+        <p>Para ver as outras paginas de estudo <a href="../estudo.html" rel="prev" target="_self">clique aqui.</a></p>
+    </footer>
+</body>
+</html>
