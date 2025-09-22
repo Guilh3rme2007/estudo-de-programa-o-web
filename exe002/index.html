@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudo HTML e CSS</title>
+    <link rel="shortcut icon" href="imagens/icones/apple-touch-icon.png" type="image/x-icon">
+    <style>
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #c1e7f7, #a0d3d6, #6ab2d3, #50a0d1);
+        }
+        header {
+            background: #294252;
+            color: #ffffff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        h1 {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-style: normal;
+            margin: 10px 0;
+            color: midnightblue;
+        }
+        h2 {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin: 5px 0;
+            color: darkblue;
+        }
+        h3 {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 5px 0;
+            color:hsl(184, 55%, 37%);
+        }
+        hr {
+            border: none;
+            height: 3px;
+            background-color: #6e12d6;
+            margin: 20px 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        p {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin: 5px 0;
+            color: black;
+        }
+        pre {
+            color: #086aeb;
+            padding: 10px;
+            overflow-x: auto;
+        }
+        blockquote {
+            font-family: 'Times New Roman', Times, serif;
+            border-left: 2px solid #12d6cc;
+            padding: 10px 20px;
+            margin: 20px 0;
+        }
+        a {
+            color: hsl(0, 100%, 50%);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        mark {
+            background: rgb(0, 255, 0);
+            padding: 0 4px;
+        }
+        footer {
+            background:linear-gradient(to bottom, #05ff1a, #09792e);
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            color: #1c6491;
+            text-decoration: none;
+            padding: 10px 15px;
+        }
+        nav a:hover {
+            background: #e8491d;
+            color: #ffffff;
+        }
+    </style> 
+</head>
+<body>
+    <h1>Meu estudo de HTML</h1>
+    <hr>
+    <h2> Introdução <a href="https://www.cursoemvideo.com/" target="_blank">&#x1F4BB</a></h2>
+    <p> O proposito deste estudo é entender a estrutura básica de um documento HTML alem de revisar alguns elementos e aprender outros tipos de elementos e como se relacionam entre si.</p>
+    <img src="https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-best-web-design-psd-html-cms-development-ecommerce-6.png" alt="icone de HTML CSS JavaScript">
+    <h3>Revisão de conceitos</h3>
+    <p>Não irei mudar a cor de fundo, para que eu possa alterar as cores dos elementos <a href="https://www.w3schools.com/" target="_blank">&#x1F4D3</a>.</p>
+    <p>Apartir  deste parte colocarei links e quebras de linhas <br>Aqui estarão links de um documento descrevendo cada função demonstrada neste estudo: </p>
+    <p><a href="https://www.w3schools.com/tags/default.asp" target="_blank">Lista de Tags HTML</a></p>
+    <p><a href="file:///C:/Progama%C3%A7%C3%A3o/Programa%C3%A7%C3%A3o%20web/HTMLeCSS/estudohtmlcss/exe002/anotacoes.html" target="_blank">Anotações</a></p>
+    <h3>Novos elementos semânticos</h3>
+    <h4>Negrito e itálico</h4>
+    <p>Para colocar termos de forma semântica, utilizamos <strong>elementos</strong> como <code>&lt;strong&gt;</code> para <strong>negrito</strong> e <code>&lt;em&gt;</code> para <em>itálico</em>.</p>
+    <h4>Texto marcado</h4>
+    <p>Para deixar o texto <mark>marcado</mark> utilizamos a tag &lt;mark&gt;.</p>
+    <h4>Texto pequeno</h4>
+    <p>Para criar um texto <small>pequeno</small> usamos a tag &lt;small&gt;.</p>
+    <h4>Texto deletado</h4>
+    <p>Para criar um texto <del>deletado</del> usamos a tag &lt;del&gt;.</p>
+    <h4>Texto inserido</h4>
+    <p>Para criar um texto <ins>inserido</ins> usamos a tag &lt;ins&gt;.</p>
+    <h4>Texto sobrescrito</h4>
+    <p>Para criar um texto <sup>sobrescrito</sup> usamos a tag &lt;sup&gt;. <br> x<sup>90+6</sup> - 2<sup>6</sup> = x<sup>90</sup></p>
+    <h4>Texto subscrito</h4>
+    <p>Para criar um texto <sub>subscrito</sub> usamos a tag &lt;sub&gt;. <br> CO<sub>2</sub></p>
+    <h4>Texto ao contrário</h4>
+    <p>Para criar um texto <span style="unicode-bidi: bidi-override; direction: rtl;">ao contrário</span> usamos a propriedade CSS <code>direction: rtl;</code>.</p>
+    <p>Ou posso usar a função <code>&lt;bdo dir="rtl"&gt;</code> para deixar o texto ao <bdo dir="rtl">contrário</bdo>.</p>
+    <h3>Outras formatações</h3>
+    <h4>Código fonte</h4>
+    <p>O comando <code>&lt;code&gt;</code> deixa o texto com fonte de código e monoespaçada. </p>
+    <pre>
+        <code>
+    #include <stdio.h>
+    int main() {
+        printf("Hello, World!");
+        return 0;
+    }
+        </code>
+    </pre>
+    <h4>Pré formatado</h4>
+    <p>O comando <code>&lt;pre&gt;</code> deixa o texto pré-formatado, mantendo espaços e quebras de linha.</p>
+    <pre style="background-color: #ffffff">
+        <code>
+    #include <stdio.h>
+    int main() {
+        int cont = 0;
+        while (cont <= 100){
+            printf("%d \n", cont);
+            cont ++;
+        }
+        return 0;
+    }
+        </code>
+    </pre>
+    <h3>Citações</h3>
+    <h4>Citações simples</h4>
+    <p>Segundo C.S.Lewis: <q>a Amizade é o menos natural dos amores</q></p>
+    <h4>Citações em bloco</h4>
+    <blockquote cite="Banquete do diabo">
+        Não, isso só significa que temos
+de ser modificados em nossas qualidades e nos
+ânimos de nossas mentes, que devemos esquecer
+completamente a pessoa que já fomos.
+    </blockquote>
+    <h3>Abreviações</h3>
+    <p>As principais abreviações utilizadas em <abbr title="HyperText Markup Language">HTML</abbr> são:</p>
+    <ul>
+        <li style="color: rgb(228, 174, 73)"><abbr title="HyperText Markup Language">HTML</abbr></li>
+        <li style = "color: blue"><abbr title="Cascading Style Sheets">CSS</abbr></li>
+        <li style = "color: rgb(255, 251, 0)"><abbr title="JavaScript">JS</abbr></li>
+    </ul>
+    <p>A tag para abreviações é <code>&lt;abbr&gt;</code>. </p>
+    <h3>Listas</h3>
+    <h4>Listas não ordenadas</h4>
+    <p>A tag <code>&lt;ul&gt;</code> é utilizada para criar listas não ordenadas.</p>
+    <ul>
+        <li>Bolo</li>
+        <li>Café</li>
+        <li>Leite</li>
+    </ul>
+    <h4>Listas ordenadas</h4>
+    <p>A tag <code>&lt;ol&gt;</code> é utilizada para criar listas ordenadas.</p>
+    <ol>
+        <li>Gustavo</li>
+        <li>Maria</li>
+        <li>João</li>
+        <li>Pedro</li>
+    </ol>
+    <footer>
+        <p>Estudo de <span style="color: #ffffff"><abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr></span> - 2025</p>
+        <p><a href="https://www.w3schools.com/" target="_blank">link de referências nas partes em vermelho e nos emojis</a></p>
+        <p><a href="../estudo.html" rel="prev" target="_self">Voltar para a página de links</a></p>
+    </footer>
+</body>
+</html>
